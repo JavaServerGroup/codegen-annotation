@@ -13,6 +13,6 @@ public @interface CodeGenApi {
 	String description();
 	String host() default "host(get from initialization)";
 	String forWho() default "default";
-	boolean genSDK() default true;
+	boolean genSDK() default false;
 	String remark() default "";
 }
