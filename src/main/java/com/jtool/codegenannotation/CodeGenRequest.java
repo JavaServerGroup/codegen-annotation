@@ -9,4 +9,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CodeGenRequest {
 	Class<?> value();
+	boolean isRest() default false;
 }
