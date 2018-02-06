@@ -7,7 +7,5 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface CodeGenExceptionDefine {
-    String code();
-    String desc();
+public @interface CodeGenExceptionTypeEnum {
 }
